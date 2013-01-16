@@ -14,7 +14,7 @@ module.exports = function(context) {
   var file, _i, _len;
   for (_i = 0, _len = files.length; _i < _len; _i++) {
     file = files[_i];
-    vm.runInContext(fs.readFileSync(path.join(base_path, file), context, file));
+    vm.runInContext(fs.readFileSync(path.join(base_path, file)), context, file);
   }
   return context.i18n;
 };
