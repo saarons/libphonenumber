@@ -1,0 +1,12 @@
+{
+  "name": "libphonenumber",
+  "version": "553.0.0",
+  "description": "A thin Node wrapper for libphonenumber",
+  "main": "index.js",
+  "author": "Sam Aarons <samaarons@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/saarons/libphonenumber.git"
+  }
+}
